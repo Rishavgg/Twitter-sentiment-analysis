@@ -2,3 +2,4 @@ nltk==3.8.1
 scikit_learn==1.0.2
 scipy==1.7.3
 streamlit==1.21.0
+pickle
