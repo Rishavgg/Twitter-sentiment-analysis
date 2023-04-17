@@ -59,7 +59,7 @@ def probability():
     st.write(f"Probability for negative sentiment: {probs[0][0]:.2f}")
     st.write(f"Probability for neutral sentiment: {probs[0][1]:.2f}")
     st.write(f"Probability for positive sentiment: {probs[0][2]:.2f}")
-
+  #button
 if st.button('Predict'):
     # Preprocess the input tweet
     transform_tweet = transform_text(input_tweet)
