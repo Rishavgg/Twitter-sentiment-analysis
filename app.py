@@ -1,6 +1,6 @@
 import streamlit as st
-import sklearn
-from scipy import sparse
+# import sklearn
+# from scipy import sparse
 import pickle
 import string
 from nltk.corpus import stopwords
@@ -8,9 +8,8 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 nltk.download('stopwords')
 ps=PorterStemmer()
-# ////////////////////
+#background image
 import base64
-import streamlit as st
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
