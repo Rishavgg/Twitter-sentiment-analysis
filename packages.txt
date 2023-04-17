@@ -1,2 +1,0 @@
-libgl1
-python3-scipy
