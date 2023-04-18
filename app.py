@@ -1,6 +1,4 @@
 import streamlit as st
-# import sklearn
-# from scipy import sparse
 import pickle
 import string
 from nltk.corpus import stopwords
