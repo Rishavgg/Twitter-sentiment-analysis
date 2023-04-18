@@ -6,9 +6,12 @@
 <ul>
   <li>pandas</li>
   <li>numpy</li>
+  <li>matplotlib</li>
   <li>scikit-learn</li>
-  <li>nltk</li>
- <li>few more......</li>
+  <li>nltk</li> 
+ <li>seaborn</li>
+ <li>string</li>
+ <li>pickle</li>
 </ul>
 <h2>Data Collection and Preprocessing</h2>
 <p>The data for this project was collected from Kaggle. We collected tweets on a specific topic using a set of search terms and filtered out any retweets or duplicate tweets.</p>
