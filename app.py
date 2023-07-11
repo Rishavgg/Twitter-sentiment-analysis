@@ -46,8 +46,8 @@ def transform_text(text):
     y.append(ps.stem(i))
   return " ".join(y)
 
-tfidf=pickle.load(open('vectorizer3.pkl','rb'))
-model2=pickle.load(open('model3.pkl','rb'))
+tfidf=pickle.load(open('vectorizer_final.pkl','rb'))
+model2=pickle.load(open('model_final.pkl','rb'))
 st.title("Sentiment Analysis")
 
 input_tweet = st.text_input("Enter the tweet")
@@ -78,5 +78,6 @@ if st.button('Predict'):
     else:
         st.write('The sentiment is: neutral')
         probability()
+
 
 
