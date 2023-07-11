@@ -6,9 +6,12 @@
 <ul>
   <li>pandas</li>
   <li>numpy</li>
+  <li>matplotlib</li>
   <li>scikit-learn</li>
-  <li>nltk</li>
- <li>few more......</li>
+  <li>nltk</li> 
+ <li>seaborn</li>
+ <li>string</li>
+ <li>pickle</li>
 </ul>
 <h2>Data Collection and Preprocessing</h2>
 <p>The data for this project was collected from Kaggle. We collected tweets on a specific topic using a set of search terms and filtered out any retweets or duplicate tweets.</p>
@@ -32,6 +35,8 @@
   <h3>Using a Pipeline for Best Accuracy</h3>
   <p>We utilized a pipeline to optimize our machine learning model and achieve the highest possible accuracy. The pipeline involved a series of data preprocessing and transformation steps, followed by fitting multiple models and selecting the best performing one.</p>
 </div>
+<h3>Using Streamlit</h3>
+<p>Streamlit is a Python framework that allows you to quickly and easily create interactive web applications using only Python code. <br>Used in $app.py</p>
 
 
 
